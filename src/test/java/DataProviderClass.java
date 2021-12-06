@@ -29,7 +29,7 @@ public class DataProviderClass {
     @DataProvider(name = "capabilities", parallel = true)
     public Object[][] createData() throws IOException {
         ObjectMapper om = new ObjectMapper(new YAMLFactory());
-        Caps remoteDriverConfig = new Caps();
+        Caps caps = new Caps();
 
         PreemptiveBasicAuthScheme authenticationScheme = new PreemptiveBasicAuthScheme();
         authenticationScheme.setUserName(USERNAME);
@@ -57,14 +57,9 @@ public class DataProviderClass {
 //                .filter(d -> d.getOs_version().equals("11"))
 //                .collect(Collectors.toList());
         List<Platform> filtered_devices = applyFilters(all_devices, filters);
-        remoteDriverConfig.setPlatformDetails(filtered_devices);
-        om.writeValue(new File("src/test/resources/gen-caps.yml"), remoteDriverConfig);
+        caps.setPlatformDetails(filtered_devices);
+        om.writeValue(new File("src/test/resources/gen-caps.yml"), caps);
 
-        Yaml yaml = new Yaml(new Constructor(Caps.class));
-        InputStream inputStream = this.getClass()
-                .getClassLoader()
-                .getResourceAsStream("gen-caps.yml");
-        Caps caps = yaml.load(inputStream);
 
         Object[][] table = new Object[caps.getPlatformDetails().size()][6];
         for(int i=0; i<caps.getPlatformDetails().size();i++){

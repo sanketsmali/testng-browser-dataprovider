@@ -15,11 +15,12 @@ public class SampleTest2 {
     public static final String URL = "@hub-cloud.browserstack.com/wd/hub";
 
     @Test(dataProvider = "capabilities", dataProviderClass = DataProviderClass.class)
-    public void login(String name, String os, String os_Version, String browser, String browserVersion) throws IOException {
+    public void login(String name, String os, String os_Version, String browser, String browserVersion, String device) throws IOException {
         {
 
             Timestamp timestamp = new Timestamp(System.currentTimeMillis());
             DesiredCapabilities capability = new DesiredCapabilities();
+            capability.setCapability("device", device);
             capability.setCapability("os", os);
             capability.setCapability("os_version", os_Version);
             capability.setCapability("browser", browser);
