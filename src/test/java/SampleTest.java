@@ -16,20 +16,23 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.sql.Timestamp;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class SampleTest {
-    public static final String  USERNAME= "<username>";
-    public static final String PASSWORD = "<password>";
+    public static final Map<String, String> env = System.getenv();
+    public static final String  USERNAME= env.get("BROWSERSTACK_USERNAME");
+    public static final String PASSWORD = env.get("BROWSERSTACK_ACCESS_KEY");
     private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     public static final String URL= "@hub-cloud.browserstack.com/wd/hub";
 
 
 
     @Test(dataProvider= "capabilities" , dataProviderClass=DataProviderClass.class)
-    public void login(String name,String os,String os_Version,String browser,String browserVersion) throws IOException {
+    public void login(String name,String os,String os_Version,String browser,String browserVersion, String device) throws IOException {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         DesiredCapabilities capability= new DesiredCapabilities();
+        capability.setCapability("device", device);
         capability.setCapability("os", os);
         capability.setCapability("os_version", os_Version);
         capability.setCapability("browser", browser);

@@ -1,17 +1,17 @@
 platformDetails:
   - name: "mobile"
     os: "Windows"
-    osVersion: "7"
+    os_version: "7"
     browser: "Internet Explorer"
     browserVersion: "11.0"
   - name: 'Win10_Chrome_Latest-1'
     os: 'Windows'
-    osVersion: '10'
+    os_version: '10'
     browser: 'Chrome'
     browserVersion: 'latest-1'
   - name: 'OSX_BigSur_Chrome_Latest'
     os: 'OS X'
-    osVersion: 'Big Sur'
+    os_version: 'Big Sur'
     browser: 'Chrome'
     browserVersion: 'latest'
 

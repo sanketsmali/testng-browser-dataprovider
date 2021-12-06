@@ -3,16 +3,25 @@ package capsUtils;
 public class Platform {
 
     private String name;
+    private String device;
     private String os;
-    private String osVersion;
+    private String os_version;
     private String browser;
     private String browserVersion;
+    private boolean realMobile;
 
     public String getName() {
         return name;
     }
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDevice() {
+        return device;
+    }
+    public void setDevice(String device) {
+        this.device = device;
     }
 
     public String getOs() {
@@ -22,11 +31,11 @@ public class Platform {
         this.os = os;
     }
 
-    public String getOsVersion() {
-        return osVersion;
+    public String getOs_version() {
+        return os_version;
     }
-    public void setOsVersion(String osVersion) {
-        this.osVersion = osVersion;
+    public void setOs_version(String os_version) {
+        this.os_version = os_version;
     }
 
     public String getBrowser() {
@@ -42,5 +51,8 @@ public class Platform {
     public void setBrowserVersion(String browserVersion) {
         this.browserVersion = browserVersion;
     }
+
+    public boolean isRealMobile() { return realMobile; }
+    public void setRealMobile(boolean realMobile) { this.realMobile = realMobile; }
 
 }

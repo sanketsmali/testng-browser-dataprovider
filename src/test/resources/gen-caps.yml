@@ -1,0 +1,856 @@
+---
+platformDetails:
+- name: null
+  device: "iPhone XS"
+  os: "ios"
+  os_version: "15"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 13"
+  os: "ios"
+  os_version: "15"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 11 Pro"
+  os: "ios"
+  os_version: "15"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone XS"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 12 Pro Max"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 12 Pro"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 12 Mini"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 12"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 11 Pro Max"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 11"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone XS"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 11 Pro Max"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 11 Pro"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 11"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone XS"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone XS Max"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone XR"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone X"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 8"
+  os: "ios"
+  os_version: "15"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 8"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 8"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 8"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 8 Plus"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 8 Plus"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 7"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 7"
+  os: "ios"
+  os_version: "10"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 7 Plus"
+  os: "ios"
+  os_version: "10"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 6S"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 6S"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 6S Plus"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone 6"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone SE 2020"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPhone SE"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Air 4"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 12.9 2021"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 12.9 2020"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 11 2021"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 12.9 2020"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 12.9 2018"
+  os: "ios"
+  os_version: "15"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Mini 2021"
+  os: "ios"
+  os_version: "15"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad 8th"
+  os: "ios"
+  os_version: "14"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 12.9 2018"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 11 2020"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Mini 2019"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Air 2019"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad 7th"
+  os: "ios"
+  os_version: "13"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 12.9 2018"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 11 2018"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Mini 2019"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Air 2019"
+  os: "ios"
+  os_version: "12"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 9.7 2016"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Pro 12.9 2017"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad Mini 4"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad 6th"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "iPad 5th"
+  os: "ios"
+  os_version: "11"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S21 Ultra"
+  os: "android"
+  os_version: "11.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S21"
+  os: "android"
+  os_version: "11.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S21 Plus"
+  os: "android"
+  os_version: "11.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S20"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S20 Plus"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S20 Ultra"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Note 20 Ultra"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Note 20"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy A51"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy A11"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S9 Plus"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S8 Plus"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S10e"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S10 Plus"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S10"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Note 10 Plus"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Note 10"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy A10"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Note 9"
+  os: "android"
+  os_version: "8.1"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy J7 Prime"
+  os: "android"
+  os_version: "8.1"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S9 Plus"
+  os: "android"
+  os_version: "8.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S9"
+  os: "android"
+  os_version: "8.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Note 8"
+  os: "android"
+  os_version: "7.1"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy A8"
+  os: "android"
+  os_version: "7.1"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S8 Plus"
+  os: "android"
+  os_version: "7.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S8"
+  os: "android"
+  os_version: "7.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S7"
+  os: "android"
+  os_version: "6.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S6"
+  os: "android"
+  os_version: "5.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy S5"
+  os: "android"
+  os_version: "4.4"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 6"
+  os: "android"
+  os_version: "12.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 5"
+  os: "android"
+  os_version: "12.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 5"
+  os: "android"
+  os_version: "11.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 4"
+  os: "android"
+  os_version: "11.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 4 XL"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 4"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 3"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 3a XL"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 3a"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 3 XL"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 3"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 2"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel 2"
+  os: "android"
+  os_version: "8.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel"
+  os: "android"
+  os_version: "8.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Pixel"
+  os: "android"
+  os_version: "7.1"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Nexus 6"
+  os: "android"
+  os_version: "6.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Nexus 6"
+  os: "android"
+  os_version: "5.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Google Nexus 5"
+  os: "android"
+  os_version: "4.4"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "OnePlus 9"
+  os: "android"
+  os_version: "11.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "OnePlus 8"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "OnePlus 7T"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "OnePlus 7"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "OnePlus 6T"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Xiaomi Redmi Note 9"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Xiaomi Redmi Note 8"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Xiaomi Redmi Note 7"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Motorola Moto G9 Play"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Motorola Moto G7 Play"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Motorola Moto X 2nd Gen"
+  os: "android"
+  os_version: "6.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Vivo Y50"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Oppo Reno 3 Pro"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Huawei P30"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Tab S7"
+  os: "android"
+  os_version: "10.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Tab S6"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Tab S5e"
+  os: "android"
+  os_version: "9.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Tab S4"
+  os: "android"
+  os_version: "8.1"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Tab S3"
+  os: "android"
+  os_version: "8.0"
+  browser: null
+  browserVersion: null
+  realMobile: true
+- name: null
+  device: "Samsung Galaxy Tab 4"
+  os: "android"
+  os_version: "4.4"
+  browser: null
+  browserVersion: null
+  realMobile: true
