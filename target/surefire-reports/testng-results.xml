@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="23764" started-at="2021-12-06T12:59:59 IST" finished-at="2021-12-06T13:00:22 IST">
+    <groups>
+    </groups>
+    <test name="BstackTest" duration-ms="23764" started-at="2021-12-06T12:59:59 IST" finished-at="2021-12-06T13:00:22 IST">
+      <class name="SampleTest">
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SampleTest@335eadca]" name="login" duration-ms="15382" started-at="2021-12-06T12:59:59 IST" data-provider="capabilities" finished-at="2021-12-06T13:00:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Win10_Chrome_Latest-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SampleTest@335eadca]" name="login" duration-ms="11888" started-at="2021-12-06T12:59:59 IST" data-provider="capabilities" finished-at="2021-12-06T13:00:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OSX_BigSur_Chrome_Latest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Big Sur]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SampleTest@335eadca]" name="login" duration-ms="22356" started-at="2021-12-06T12:59:59 IST" data-provider="capabilities" finished-at="2021-12-06T13:00:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SampleTest@335eadca]" name="tearDown" is-config="true" duration-ms="1689" started-at="2021-12-06T13:00:11 IST" finished-at="2021-12-06T13:00:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SampleTest@335eadca]" name="tearDown" is-config="true" duration-ms="1197" started-at="2021-12-06T13:00:14 IST" finished-at="2021-12-06T13:00:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SampleTest@335eadca]" name="tearDown" is-config="true" duration-ms="1319" started-at="2021-12-06T13:00:21 IST" finished-at="2021-12-06T13:00:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SampleTest -->
+      <class name="SampleTest2">
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SampleTest2@4973813a]" name="login" duration-ms="11391" started-at="2021-12-06T12:59:59 IST" data-provider="capabilities" finished-at="2021-12-06T13:00:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SampleTest2@4973813a]" name="login" duration-ms="11020" started-at="2021-12-06T12:59:59 IST" data-provider="capabilities" finished-at="2021-12-06T13:00:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Win10_Chrome_Latest-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SampleTest2@4973813a]" name="login" duration-ms="14181" started-at="2021-12-06T12:59:59 IST" data-provider="capabilities" finished-at="2021-12-06T13:00:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OSX_BigSur_Chrome_Latest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Big Sur]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SampleTest2@4973813a]" name="tearDown" is-config="true" duration-ms="1171" started-at="2021-12-06T13:00:10 IST" finished-at="2021-12-06T13:00:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SampleTest2@4973813a]" name="tearDown" is-config="true" duration-ms="1108" started-at="2021-12-06T13:00:10 IST" finished-at="2021-12-06T13:00:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SampleTest2@4973813a]" name="tearDown" is-config="true" duration-ms="1307" started-at="2021-12-06T13:00:13 IST" finished-at="2021-12-06T13:00:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SampleTest2 -->
+    </test> <!-- BstackTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
