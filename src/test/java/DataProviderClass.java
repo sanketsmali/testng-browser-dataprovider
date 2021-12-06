@@ -36,7 +36,7 @@ public class DataProviderClass {
         authenticationScheme.setPassword(PASSWORD);
         requestSpecification = new RequestSpecBuilder()
                 .setBaseUri("https://api-cloud.browserstack.com")
-                .setBasePath("app-automate")
+                .setBasePath("automate")
                 .setAuth(authenticationScheme)
                 .build();
         responseSpecification = new ResponseSpecBuilder()
@@ -45,17 +45,17 @@ public class DataProviderClass {
 
         // filters
         Map<String, String> filters = new LinkedHashMap<String, String>();
-        filters.put("Platform", "mobile");
-        filters.put("Os", "android"); // ios-android
-        filters.put("Os_version", "11.0"); // os versions
+        filters.put("Platform", "desktop");// mobile-desktop
+        filters.put("Os", "Windows"); // ios-android-Windows-OS X
+        filters.put("Os_version", "10"); // os versions
+        filters.put("Browser", "chrome"); //Chrome-Firefox etc
+        filters.put("Browser_version", "92.0"); //all versions >
 
-        // platform: getPlatform
-        List<Platform> all_devices = get("devices.json")
+        //fetching the browser list from browserstack
+        List<Platform> all_devices = get("browsers.json")
                 .jsonPath()
                 .getList("", Platform.class);
-//                .filter(d -> d.getOs().equals("android"))
-//                .filter(d -> d.getOs_version().equals("11"))
-//                .collect(Collectors.toList());
+
         List<Platform> filtered_devices = applyFilters(all_devices, filters);
         caps.setPlatformDetails(filtered_devices);
         om.writeValue(new File("src/test/resources/gen-caps.yml"), caps);
@@ -63,7 +63,7 @@ public class DataProviderClass {
 
         Object[][] table = new Object[caps.getPlatformDetails().size()][6];
         for(int i=0; i<caps.getPlatformDetails().size();i++){
-            System.out.println(caps.getPlatformDetails().get(i).getDevice() +"-"+ caps.getPlatformDetails().get(i).getOs_version());
+            
             table[i][0] = caps.getPlatformDetails().get(i).getName();
             table[i][1] = caps.getPlatformDetails().get(i).getOs();
             table[i][2] = caps.getPlatformDetails().get(i).getOs_version();
@@ -80,7 +80,7 @@ public class DataProviderClass {
     public List<Platform> applyFilters(List<Platform> all_devices, Map<String, String> filters){
 
         for(Map.Entry<String,String> filter : filters.entrySet()){
-            System.out.println(">>>>>>>>>>>>>>>>>>>>>>" + filter.getValue());
+            
             if(filter.getKey().equals("Platform")) {
                 if (filter.getValue().equals("mobile")) all_devices = all_devices.stream().filter(d -> d.isRealMobile()).collect(Collectors.toList());
                 else all_devices = all_devices.stream().filter(d -> !d.isRealMobile()).collect(Collectors.toList());
@@ -89,6 +89,10 @@ public class DataProviderClass {
                 all_devices = all_devices.stream().filter(d -> d.getOs().equals(filter.getValue())).collect(Collectors.toList());
             if(filter.getKey().equals("Os_version"))
                 all_devices = all_devices.stream().filter(d -> d.getOs_version().equals(filter.getValue())).collect(Collectors.toList());
+            if(filter.getKey().equals("Browser"))
+                all_devices = all_devices.stream().filter(d -> d.getBrowser().equals(filter.getValue())).collect(Collectors.toList());
+            if(filter.getKey().equals("Browser_version"))
+                all_devices = all_devices.stream().filter(d -> Double.parseDouble(d.getBrowserVersion().split(" ")[0]) >= Double.parseDouble(filter.getValue())).collect(Collectors.toList());
         }
         return all_devices;
     }

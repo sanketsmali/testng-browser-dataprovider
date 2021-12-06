@@ -1,44 +1,56 @@
 ---
 platformDetails:
 - name: null
-  device: "Samsung Galaxy S21 Ultra"
-  os: "android"
-  os_version: "11.0"
-  browser: null
-  browserVersion: null
-  realMobile: true
+  device: null
+  os: "Windows"
+  os_version: "10"
+  browser: "chrome"
+  browserVersion: "92.0"
+  realMobile: false
+  browser_version: "92.0"
+  real_mobile: false
 - name: null
-  device: "Samsung Galaxy S21"
-  os: "android"
-  os_version: "11.0"
-  browser: null
-  browserVersion: null
-  realMobile: true
+  device: null
+  os: "Windows"
+  os_version: "10"
+  browser: "chrome"
+  browserVersion: "93.0"
+  realMobile: false
+  browser_version: "93.0"
+  real_mobile: false
 - name: null
-  device: "Samsung Galaxy S21 Plus"
-  os: "android"
-  os_version: "11.0"
-  browser: null
-  browserVersion: null
-  realMobile: true
+  device: null
+  os: "Windows"
+  os_version: "10"
+  browser: "chrome"
+  browserVersion: "94.0"
+  realMobile: false
+  browser_version: "94.0"
+  real_mobile: false
 - name: null
-  device: "Google Pixel 5"
-  os: "android"
-  os_version: "11.0"
-  browser: null
-  browserVersion: null
-  realMobile: true
+  device: null
+  os: "Windows"
+  os_version: "10"
+  browser: "chrome"
+  browserVersion: "95.0"
+  realMobile: false
+  browser_version: "95.0"
+  real_mobile: false
 - name: null
-  device: "Google Pixel 4"
-  os: "android"
-  os_version: "11.0"
-  browser: null
-  browserVersion: null
-  realMobile: true
+  device: null
+  os: "Windows"
+  os_version: "10"
+  browser: "chrome"
+  browserVersion: "96.0"
+  realMobile: false
+  browser_version: "96.0"
+  real_mobile: false
 - name: null
-  device: "OnePlus 9"
-  os: "android"
-  os_version: "11.0"
-  browser: null
-  browserVersion: null
-  realMobile: true
+  device: null
+  os: "Windows"
+  os_version: "10"
+  browser: "chrome"
+  browserVersion: "97.0 beta"
+  realMobile: false
+  browser_version: "97.0 beta"
+  real_mobile: false

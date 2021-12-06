@@ -1,4 +1,5 @@
 package capsUtils;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Platform {
 
@@ -7,7 +8,9 @@ public class Platform {
     private String os;
     private String os_version;
     private String browser;
-    private String browserVersion;
+    @JsonProperty("browser_version")
+    private String browser_version;
+    @JsonProperty("real_mobile")
     private boolean real_mobile;
 
     public String getName() {
@@ -46,10 +49,10 @@ public class Platform {
     }
 
     public String getBrowserVersion() {
-        return browserVersion;
+        return browser_version;
     }
-    public void setBrowserVersion(String browserVersion) {
-        this.browserVersion = browserVersion;
+    public void setBrowserVersion(String browser_version) {
+        this.browser_version = browser_version;
     }
 
     public boolean isRealMobile() { return real_mobile; }
