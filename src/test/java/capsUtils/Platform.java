@@ -8,7 +8,7 @@ public class Platform {
     private String os_version;
     private String browser;
     private String browserVersion;
-    private boolean realMobile;
+    private boolean real_mobile;
 
     public String getName() {
         return name;
@@ -52,7 +52,7 @@ public class Platform {
         this.browserVersion = browserVersion;
     }
 
-    public boolean isRealMobile() { return realMobile; }
-    public void setRealMobile(boolean realMobile) { this.realMobile = realMobile; }
+    public boolean isRealMobile() { return real_mobile; }
+    public void setRealMobile(boolean real_mobile) { this.real_mobile = real_mobile; }
 
 }

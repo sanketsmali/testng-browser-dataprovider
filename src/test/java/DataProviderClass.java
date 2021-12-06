@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -43,10 +44,10 @@ public class DataProviderClass {
                 .build();
 
         // filters
-        Map<String, String> filters = new HashMap<String, String>();
+        Map<String, String> filters = new LinkedHashMap<String, String>();
         filters.put("Platform", "mobile");
         filters.put("Os", "android"); // ios-android
-        filters.put("Os_version", "11"); // os versions
+        filters.put("Os_version", "11.0"); // os versions
 
         // platform: getPlatform
         List<Platform> all_devices = get("devices.json")
@@ -84,16 +85,15 @@ public class DataProviderClass {
     public List<Platform> applyFilters(List<Platform> all_devices, Map<String, String> filters){
 
         for(Map.Entry<String,String> filter : filters.entrySet()){
-
+            System.out.println(">>>>>>>>>>>>>>>>>>>>>>" + filter.getValue());
             if(filter.getKey().equals("Platform")) {
-                if (filter.getValue().equals("mobile")) all_devices.stream().filter(d -> d.isRealMobile()).collect(Collectors.toList());
-                else all_devices.stream().filter(d -> !d.isRealMobile()).collect(Collectors.toList());
+                if (filter.getValue().equals("mobile")) all_devices = all_devices.stream().filter(d -> d.isRealMobile()).collect(Collectors.toList());
+                else all_devices = all_devices.stream().filter(d -> !d.isRealMobile()).collect(Collectors.toList());
             }
             if(filter.getKey().equals("Os"))
-                System.out.println(">>>>>>>>>>>>>>>>>>>>>>" + filter.getValue());
-                all_devices.stream().filter(d -> d.getOs().equals(filter.getValue())).collect(Collectors.toList());
+                all_devices = all_devices.stream().filter(d -> d.getOs().equals(filter.getValue())).collect(Collectors.toList());
             if(filter.getKey().equals("Os_version"))
-                all_devices.stream().filter(d -> d.getOs_version().equals(filter.getValue())).collect(Collectors.toList());
+                all_devices = all_devices.stream().filter(d -> d.getOs_version().equals(filter.getValue())).collect(Collectors.toList());
         }
         return all_devices;
     }
