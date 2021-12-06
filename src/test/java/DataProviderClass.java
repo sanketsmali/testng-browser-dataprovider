@@ -86,7 +86,7 @@ public class DataProviderClass {
         for(Map.Entry<String,String> filter : filters.entrySet()){
 
             if(filter.getKey().equals("Platform")) {
-                if ("Platform".equals("mobile")) all_devices.stream().filter(d -> d.isRealMobile()).collect(Collectors.toList());
+                if (filter.getValue().equals("mobile")) all_devices.stream().filter(d -> d.isRealMobile()).collect(Collectors.toList());
                 else all_devices.stream().filter(d -> !d.isRealMobile()).collect(Collectors.toList());
             }
             if(filter.getKey().equals("Os"))
